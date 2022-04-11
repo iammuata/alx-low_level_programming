@@ -2,7 +2,6 @@
 /**
  * main - Entry point
  *
- *
  * Return: Always 0 (Success/correct)
  */
 
@@ -16,7 +15,7 @@ for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 if (alphabet == 'q')
 continue;
 
-else if (alphabe = 'e')
+else if (alphabet == 'e')
 continue
 
 putchar(alphabet);
