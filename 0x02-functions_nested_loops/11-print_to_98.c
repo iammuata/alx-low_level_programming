@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98
+ * print_to_98 - function that prints all natural numbers from n to 98
  * @n: takes in an integer
  *
  */
@@ -22,7 +22,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (i = i; i < 99; i++)
+		for (i = n; i < 99; i++)
 		{
 			printf("%d", i);
 			if (i != 98)
